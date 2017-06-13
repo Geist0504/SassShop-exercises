@@ -1,16 +1,16 @@
 .footer {
-  background: $accent-blue;
-  border-top: 10px solid $tan;
+  background: $blue;
+  border-bottom: $border-width solid $tan;
 
   nav {
     float: left;
 
     a {
-      color: #AEA4AD;
+      color: $purple;
       display: block;
       padding: 1em;
 
-      &:hover { color: #D9D0CB; }
+      &:hover { color: $beige; }
     }
   }
 
@@ -24,7 +24,7 @@
 }
 
 .copy {
-  color: #D9D0CB;
+  color: $beige;
   float: right;
   margin: 1em 0;
 }
