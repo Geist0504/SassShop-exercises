@@ -1,0 +1,17 @@
+%clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+%navlist--inline {
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+  }
+}
